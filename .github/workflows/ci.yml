@@ -21,4 +21,4 @@ jobs:
         run: npm ci
 
       - name: Verify app
-        run: node -e "require('./backend/app')"
+        run: node -e "require('./backend/app')"\
